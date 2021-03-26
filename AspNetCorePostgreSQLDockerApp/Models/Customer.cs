@@ -14,5 +14,6 @@ namespace AspNetCorePostgreSQLDockerApp.Models {
     public string Gender { get; set; }
     public int OrderCount { get; set; }
     public List<Order> Orders { get; set; }
+    public bool confirm {get; set; }
   }
 }
